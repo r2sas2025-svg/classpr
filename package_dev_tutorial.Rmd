@@ -1,9 +1,11 @@
 ---
-title: "R for Clinical Programming: Comparison, Files, Functions, Git & Packages"
-subtitle: "A Detailed, Beginner-Friendly Walkthrough of package_dev.R"
+title: 'R for Clinical Programming: Comparison, Files, Functions, Git & Packages'
 author: "Ram"
 date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output:
+  pdf_document:
+    toc: true
+    toc_depth: '3'
   html_document:
     toc: true
     toc_float: true
@@ -12,6 +14,7 @@ output:
     code_folding: show
     theme: flatly
     highlight: tango
+subtitle: "A Detailed, Beginner-Friendly Walkthrough of package_dev.R"
 ---
 
 ```{r setup, include=FALSE}
